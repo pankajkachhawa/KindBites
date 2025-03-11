@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+    font-family: Plus jakarta sans;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    
+  }
+  
+  #h1logo {
+      margin-top: 5px;
+  }
+  
+  .navanch {
+      text-decoration: none;
+      margin: 20px 15px;
+      color: black;
+      text-align: right;
+      
+  }
+
+  h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+  }
+  
+  form label {
+    margin: 5px 0;
+  }
+  
+  form input, form textarea, form button {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+
+  footer {
+    height: 100px;
+    background-color: #EEE;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  h4 {
+    font-size: 40px;
+    padding: 25px 0 0 25px;
+    display: inline-block;
+  }
+
+  #pf {
+    text-align: right;
+    padding: 50px 25px 0 0;
+  }

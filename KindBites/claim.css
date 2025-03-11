@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+  * {
+      font-family: Plus jakarta sans;
+      margin: 0;
+      padding: 0;
+  }
+
+  #navbar {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+  }
+
+  #h1logo {
+    margin-top: 5px;
+}
+
+.navanch {
+    text-decoration: none;
+    margin: 20px 15px;
+    color: black;
+    text-align: right;
+    
+}
+
+#pdiv {
+  margin: 150px 0 0 50px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 50px;
+}
+
+form label {
+  margin: 5px 0;
+}
+
+form input, form textarea, form button {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+#claim {
+  font-size: 45px;
+  margin-bottom: 50px;
+  color: #000;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 8;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  background-color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+
+select {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label.light {
+  font-weight: 300;
+}
+
+.number {
+  background-color: #45a049;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.rc {
+  display: block;
+}
+
+footer {
+  height: 100px;
+  background-color: #EEE;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h4 {
+  font-size: 40px;
+  padding: 25px 0 0 25px;
+  display: inline-block;
+  color: #000;
+}
+
+#pf {
+  text-align: right;
+  padding: 50px 25px 0 0;
+}

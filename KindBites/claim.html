@@ -1,0 +1,76 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Food</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="claim.css">
+</head>
+<body>
+  <div id="navbar">
+    <h1 id="h1logo">KindBites</h1>
+    <a class="navanch" href="index.html">Home</a>
+    <a class="navanch" href="donate.html">Donate</a>
+    <a class="navanch" href="claim.html">Claim</a>
+    <a class="navanch" href="signup.html">Sign Up</a>
+</div>
+  <h1 id="claim">Claim</h1>
+
+  <form action="index.html" method="post">
+  
+    
+    
+    <fieldset class="">
+      <div>
+        <legend><span class="number">1</span>Your basic info</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
+      
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="user_password">
+      </div>
+      
+      
+      <label class="rc">Food Preference:</label>
+      <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Veg</label><br>
+      <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Non-Veg</label>
+    </fieldset>
+    
+    <fieldset>
+      <div>
+        <legend><span class="number">2</span>Organization Info</legend>
+      <label for="bio">Organization Description:</label>
+      <textarea id="bio" name="user_bio"></textarea>
+      </div>
+    </fieldset>
+    <fieldset>
+      <div>
+        <label for="job">Organisation Type:</label>
+    <select id="job" name="user_job">
+      
+        <option value="frontend_developer">Orphanage</option>
+        <option value="php_developor">Old Age Home</option>
+        <option value="python_developer">Animal Shelter</option>
+        <option value="rails_developer"> Other</option>
+        
+      </optgroup>
+     
+    </select>
+      </div>
+    
+      <label class="rc">Subscribe To Newsletter</label>
+      <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Donation Listings</label><br>
+        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Promotional</label><br>
+    </fieldset>
+    <button type="submit">Claim Now</button>
+  </form>
+  <footer>
+    <h4>KindBites</h4>
+    <p id="pf">Hyderabad based Non Profit Organization</p>
+  </footer>
+  
+</body>
+</html>

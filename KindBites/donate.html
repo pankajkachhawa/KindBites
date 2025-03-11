@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Food</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <main>
+        <div id="navbar" id="bgcolor">
+            <h1 id="h1logo">KindBites</h1>
+            <a class="navanch" href="index.html">Home</a>
+            <a class="navanch" href="donate.html">Donate</a>
+            <a class="navanch" href="claim.html">Claim</a>
+            <a class="navanch" href="signup.html">Sign Up</a>
+        </div>
+        <section id="donation">
+            <h2>Donate Surplus Food</h2>
+            <form id="donation-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="organization">Organization:</label>
+                <input type="text" id="organization" name="organization">
+                <label for="food-type">Type of Food:</label>
+                <input type="text" id="food-type" name="food-type" required>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                <label for="shelf-life">Shelf Life (days):</label>
+                <input type="number" id="shelf-life" name="shelf-life" required>
+                <label for="Pick-up">Pick-up Timings:</label>
+                <input type="text" id="Pick-up" name="Pick-up" required>
+                <label for="contact">Contact No:</label>
+                <input type="number" id="contact" name="contact" required>
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+      <h4>KindBites</h4>
+      <p id="pf">Hyderabad based Non Profit Organization</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
